@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# thick-brush
+time python neural_style.py --content /home/dduke/media/images/JESS_DRAGON2016x1512.jpg --styles /home/dduke/media/images/thick-brush.jpg --output /home/dduke/media/images/neural-style/JESS_DRAGON_thickbrush-3000i-l1.jpg --learning-rate 1 --iterations 3000 --checkpoint-iterations 1000 --checkpoint-output jess_dragon_thickbrush-l1%s.jpg
+time python neural_style.py --content /home/dduke/media/images/JESS_DRAGON2016x1512.jpg --styles /home/dduke/media/images/thick-brush.jpg --output /home/dduke/media/images/neural-style/JESS_DRAGON_thickbrush-3000i-l5.jpg --learning-rate 5 --iterations 3000 --checkpoint-iterations 1000 --checkpoint-output jess_dragon_thickbrush-l5%s.jpg
+# smoke
+time python neural_style.py --content /home/dduke/media/images/JESS_DRAGON2016x1512.jpg --styles /home/dduke/media/images/smoke.jpg --output /home/dduke/media/images/neural-style/JESS_DRAGON_smoke-3000i-l1.jpg --learning-rate 1 --iterations 3000 --checkpoint-iterations 1000 --checkpoint-output jess_dragon_smoke-l1%s.jpg
+time python neural_style.py --content /home/dduke/media/images/JESS_DRAGON2016x1512.jpg --styles /home/dduke/media/images/smoke.jpg --output /home/dduke/media/images/neural-style/JESS_DRAGON_smoke-3000i-l5.jpg --learning-rate 5 --iterations 3000 --checkpoint-iterations 1000 --checkpoint-output jess_dragon_smoke-l5%s.jpg
+# painterly
+time python neural_style.py --content /home/dduke/media/images/JESS_DRAGON2016x1512.jpg --styles /home/dduke/media/images/painterly.jpg --output /home/dduke/media/images/neural-style/JESS_DRAGON_painterly-3000i-l1.jpg --learning-rate 1 --iterations 3000 --checkpoint-iterations 1000 --checkpoint-output jess_dragon_painterly-l1%s.jpg
+time python neural_style.py --content /home/dduke/media/images/JESS_DRAGON2016x1512.jpg --styles /home/dduke/media/images/painterly.jpg --output /home/dduke/media/images/neural-style/JESS_DRAGON_painterly-3000i-l5.jpg --learning-rate 5 --iterations 3000 --checkpoint-iterations 1000 --checkpoint-output jess_dragon_painterly-l5%s.jpg
+# japanese
+time python neural_style.py --content /home/dduke/media/images/JESS_DRAGON2016x1512.jpg --styles /home/dduke/media/images/japanese1.jpg --output /home/dduke/media/images/neural-style/JESS_DRAGON_japanese-3000i-l1.jpg --learning-rate 1 --iterations 3000 --checkpoint-iterations 1000 --checkpoint-output jess_dragon_japanese-l1%s.jpg
+time python neural_style.py --content /home/dduke/media/images/JESS_DRAGON2016x1512.jpg --styles /home/dduke/media/images/japanese1.jpg --output /home/dduke/media/images/neural-style/JESS_DRAGON_japanese-3000i-l5.jpg --learning-rate 5 --iterations 3000 --checkpoint-iterations 1000 --checkpoint-output jess_dragon_japanese-l5%s.jpg
+# illustrative
+time python neural_style.py --content /home/dduke/media/images/JESS_DRAGON2016x1512.jpg --styles /home/dduke/media/images/illustrative.jpg --output /home/dduke/media/images/neural-style/JESS_DRAGON_illustrative-3000i-l1.jpg --learning-rate 1 --iterations 3000 --checkpoint-iterations 1000 --checkpoint-output jess_dragon_illustrative-l1%s.jpg
+time python neural_style.py --content /home/dduke/media/images/JESS_DRAGON2016x1512.jpg --styles /home/dduke/media/images/illustrative.jpg --output /home/dduke/media/images/neural-style/JESS_DRAGON_illustrative-3000i-l5.jpg --learning-rate 5 --iterations 3000 --checkpoint-iterations 1000 --checkpoint-output jess_dragon_illustrative-l5%s.jpg
