@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# thick-brush
+time python neural_style.py --content /home/dduke/media/images/truck/JESS_TRUCK2k-0-0.jpg --styles /home/dduke/media/images/thick-brush.jpg --output /home/dduke/media/images/neural-style/JESS_TRUCK_thickbrush-0-0-2000i-l3.jpg --learning-rate 3 --iterations 2000 --checkpoint-iterations 1000 --checkpoint-output jess_truck_thickbrush-0-0-l3%s.jpg
+time python neural_style.py --content /home/dduke/media/images/truck/JESS_TRUCK2k-0-2.jpg --styles /home/dduke/media/images/thick-brush.jpg --output /home/dduke/media/images/neural-style/JESS_TRUCK_thickbrush-0-2-2000i-l3.jpg --learning-rate 3 --iterations 2000 --checkpoint-iterations 1000 --checkpoint-output jess_truck_thickbrush-0-2-l3%s.jpg
+time python neural_style.py --content /home/dduke/media/images/truck/JESS_TRUCK2k-2-0.jpg --styles /home/dduke/media/images/thick-brush.jpg --output /home/dduke/media/images/neural-style/JESS_TRUCK_thickbrush-2-0-2000i-l3.jpg --learning-rate 3 --iterations 2000 --checkpoint-iterations 1000 --checkpoint-output jess_truck_thickbrush-2-0-l3%s.jpg
+time python neural_style.py --content /home/dduke/media/images/truck/JESS_TRUCK2k-2-2.jpg --styles /home/dduke/media/images/thick-brush.jpg --output /home/dduke/media/images/neural-style/JESS_TRUCK_thickbrush-2-2-2000i-l3.jpg --learning-rate 3 --iterations 2000 --checkpoint-iterations 1000 --checkpoint-output jess_truck_thickbrush-2-2-l3%s.jpg

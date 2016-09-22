@@ -1,0 +1,5 @@
+
+Styles do not translate well to large images
+Try stretching the style image first?
+
+For tiled composite images, mask the learning rate near completed edges
